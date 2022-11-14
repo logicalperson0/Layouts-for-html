@@ -1,0 +1,42 @@
+.sliced-heading {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+.sliced-heading > .heads-bckgrd{
+    position: absolute;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    transform: skewY(-6deg);
+    transform-origin: top left;
+    filter: brightness(75%);
+}
+.sliced-heading > .heads-wrapper{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width:100vw;
+}
+.sliced-heading > .heads-wrapper > .heads-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:1000px;
+
+}
+
+.sliced-heading > .heads-wrapper > .heads-content > .abt{
+    width:200px;
+    background-color: blue;
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+    
+}
